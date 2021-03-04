@@ -97,7 +97,7 @@ menu:
     main:
         - identifier: HOME
           name: HOME
-          url: /examplesite.com
+          url:
           weight: 10
         - identifier: work
           name: WORK
