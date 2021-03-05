@@ -17,7 +17,6 @@ params:
     title: William Horvat
     description: "On goings site"
     author: William Horvat
-    # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
 
     defaultTheme: auto # dark, light
