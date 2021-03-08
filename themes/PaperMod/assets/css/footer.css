@@ -5,11 +5,11 @@
 }
 
 .footer {
-    max-width: calc(var(--main-width) + var(--gap) * 2);
+    max-width: calc(var(--main-width) + var(--gap) * 20);
     margin: auto;
     padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
-    line-height: 24px
+    line-height: 0px
 }
 
 .footer span {
@@ -29,6 +29,48 @@
 .top-link {
     visibility: hidden;
     position: fixed;
+    bottom: 0px;
+    right: 30px;
+    z-index: 99;
+    background: var(--tertiary);
+    width: 42px;
+    height: 42px;
+    padding: 12px;
+    border-radius: 64px;
+    transition: visibility .5s, opacity .8s linear
+}
+
+.social,
+.top-link {
+    font-size: 12px;
+    color: var(--secondary)
+}
+
+.social {
+    max-width: calc(var(--main-width) + var(--gap) * 20);
+    margin: auto;
+    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
+    text-align: left;
+    line-height: 0px
+}
+
+.social span {
+    margin-inline-start: 1px;
+    margin-inline-end: 1px
+}
+
+.social a {
+    color: inherit;
+    border-bottom: 1px solid var(--secondary)
+}
+
+.social a:hover {
+    border-bottom: 1px solid var(--primary)
+}
+
+.top-link {
+    visibility: hidden;
+    position: fixed;
     bottom: 60px;
     right: 30px;
     z-index: 99;
@@ -40,12 +82,18 @@
     transition: visibility .5s, opacity .8s linear
 }
 
+
 .top-link,
 .top-link svg {
     filter: drop-shadow(0px 0px 0px var(--theme));
 }
 
 .footer a:hover,
+.top-link:hover {
+    color: var(--primary)
+}
+
+.social a:hover,
 .top-link:hover {
     color: var(--primary)
 }

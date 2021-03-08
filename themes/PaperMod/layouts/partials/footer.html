@@ -1,3 +1,6 @@
+<footer class="social">
+    <span>{{ partial "social_icons.html" .Site.Params.socialIcons }}</span>
+</footer>
 <footer class="footer">
     {{- if .Site.Copyright }}
     <span>{{ .Site.Copyright | markdownify }}</span>
