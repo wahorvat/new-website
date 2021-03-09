@@ -1,9 +1,16 @@
 .main {
     position: relative;
     min-height: calc(10vh - var(--header-height) - var(--footer-height));
-    max-width: calc(var(--main-width) + var(--gap) * 2);
+    max-width: calc(var(--nav-width) + var(--gap) * 6);
     margin: auto;
-    padding: var(--gap)
+    text-align: center;
+}
+
+.line {
+    max-width: calc(var(--nav-width) + var(--gap) * 6);
+    height: 1px;
+    background-color: var(--primary);
+    border: none;
 }
 
 .page-header h1 {
