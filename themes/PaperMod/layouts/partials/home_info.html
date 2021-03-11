@@ -8,14 +8,17 @@
         <p>{{- .Content | markdownify }}</p>
     </section>
     <hr class="line"/>
-    <footer class="entry-footer">
-        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
-    </footer>
 </article>
 {{- end}}
 
 
+<div class="heading">
+	<p>RECENT WORK</p>
+</div>
 
 
+<footer class="entry-footer">
+	{{- partial "social_icons.html" $.Site.Params.socialIcons -}}
+</footer>
 
 
