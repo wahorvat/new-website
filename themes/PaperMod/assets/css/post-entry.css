@@ -1,9 +1,9 @@
 .first-entry {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 250px;
+    min-height: 25px;
     margin: auto 0;
 }
 

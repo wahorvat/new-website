@@ -6,18 +6,46 @@
     text-align: center;
 }
 
-.heading {
-    margin: 2% 0 0 var(--gap);
-    text-align: left;
+.bio {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 2px;
+    margin: var(--gap) 0;
+    padding-bottom: var(--gap);
 }
 
-.line {
-    float: left;
-    max-width: 97%;
+.bio .entry-content {
+    font-size: 130%;
+    text-align: justify;
+    font-weight: 520;
+}
+
+.bio .entry-content p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-size: 2.4vh;
+    margin: 2ex 0 0 var(--gap);
+    text-align: left;
+    text-decoration: underline;
+}
+
+hr {
+    display: left;
     height: 1px;
-    background-color: var(--primary);
-    border: none;
+    border: 0;
+    border-top: 1px solid var(--primary);
     margin: auto var(--gap);
+    padding: 0;
+    max-width: 97%;
 }
 
 .page-header h1 {
