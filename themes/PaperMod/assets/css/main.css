@@ -7,12 +7,12 @@
 }
 
 .line {
-    float: center;
-    width: 97%;
+    float: left;
+    max-width: 97%;
     height: 1px;
     background-color: var(--primary);
     border: none;
-    margin: auto var(--gap)
+    margin: auto var(--gap);
 }
 
 .page-header h1 {
@@ -57,6 +57,18 @@
 }
 
 .left-half {
+    margin: 8px 0;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 1.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    width: 10%;
+}
+
+.right-half {
     font-family: 'Roboto', sans-serif;
     position: absolute;
     text-align: left;
@@ -64,16 +76,6 @@
     width: 10%;
     font-size: 17px;
     font-weight: 320;
-}
-
-.right-half {
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    text-align: left;
-    right: 15%;
-    width: 700px;
-    font-size: 17px;
-    font-weight: 650;
 }
 
 

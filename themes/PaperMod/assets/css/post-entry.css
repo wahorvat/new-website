@@ -56,14 +56,16 @@
 }
 
 .entry-content {
-    margin: 8px 0;
+    display: table;
+    width: 100%;
+    min-height: calc(30vh);
+    text-align: left;
+    padding-left: 20%;
     color: var(--secondary);
-    font-size: 14px;
+    font-size: 80px;
     line-height: 1.6;
     overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2
+    width: 97%;
 }
 
 .entry-footer {
