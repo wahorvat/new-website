@@ -32,10 +32,10 @@
 .heading {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-size: 2.4vh;
+    font-size: 2.6vh;
     margin: 2ex 0 0 var(--gap);
     text-align: left;
-    text-decoration: underline;
+    font-weight: 320;
 }
 
 hr {

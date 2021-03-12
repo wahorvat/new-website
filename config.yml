@@ -23,7 +23,7 @@ params:
     disableThemeToggle: false
 
     ShowReadingTime: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     disableSpecial1stPost: false
     comments: false
     hidemeta: false
@@ -37,7 +37,7 @@ params:
         favicon16x16: "<link / abs url>"
         favicon32x32: "<link / abs url>"
         apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        #safari_pinned_tab: "<link / abs url>"
 
     label:
         text: "William Horvat"
@@ -96,7 +96,7 @@ menu:
     main:
         - identifier: home
           name: HOME
-          url:
+          url: /
           weight: 10
         - identifier: work
           name: WORK
@@ -104,5 +104,5 @@ menu:
           weight: 20
         - identifier: about
           name: ABOUT
-          url: /about
+          url: "about"
           weight: 30
