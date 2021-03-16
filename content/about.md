@@ -1,6 +1,7 @@
 ---
 
-layout: "default"
+type: "page"
+layout: "about"
 
 ---
 

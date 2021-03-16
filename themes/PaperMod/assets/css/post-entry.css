@@ -23,7 +23,7 @@
 .first-entry .entry-content {
     margin: calc(var(--gap) * 2) 0;
     font-size: 120%;
-    text-align: justify;
+    
 }
 
 .first-entry .entry-content p {
@@ -31,6 +31,7 @@
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  text-align: justify-all;
 }
 
 
