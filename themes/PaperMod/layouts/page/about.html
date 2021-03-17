@@ -23,8 +23,37 @@
 
 .column img{
   float: left;
-  width: 100%;
+  width: 90%;
+  padding-left: 3%;
   min-height: 100vh; 
+}
+
+.column h2 {
+	text-align: justify-all;
+	padding-left: 8%;
+	padding-top: 10%;
+	font-family: 'Didot';
+    font-size: 300%;
+}
+
+.column h3 {
+	text-align: justify-all;
+	padding-left: 8%;
+	padding-right: 15%;
+	font-family: 'Roboto thin', sans-serif;
+    font-size: 120%;
+}
+
+.column p {
+	text-align: justify-all;
+	padding-left: 8%;
+	padding-right: 15%;
+	line-height: 170%;
+	letter-spacing: 1px;
+	font-family: 'Roboto thin', sans-serif;
+    font-size: 85%;
+    font-weight: 600;
+    color: #777777;
 }
 </style>
 
@@ -36,7 +65,8 @@
  	<img src="/headshot.jpg">
  </div>
  <div class="column">
-    <h2>WIILLIAM HORVAT</h2>
+    <h2>WILLIAM HORVAT</h2>
+    <h3>APPLIED MATHEMATICIAN</h3>
     <p>{{ .Content }}</p>
 </div>
 </article>

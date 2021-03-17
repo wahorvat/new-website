@@ -4,13 +4,13 @@ type: "page"
 layout: "about"
 
 ---
+My interests lie in rigorous approaches to modeling nature from first principles. I’ve come to field after swapping synthetic biology for mathematical enlightenment.
 
-Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Get in touch if you want to discuss an idea or grab a (physically-distanced; virtual) coffee.
 
-Hugo makes use of a variety of open source projects including:
+&nbsp;
 
-https://github.com/yuin/goldmark
-https://github.com/alecthomas/chroma
+PROJECTS &nbsp; &nbsp; RESUME &nbsp; &nbsp; HOME
 
 
 
